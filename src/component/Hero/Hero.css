@@ -1,0 +1,251 @@
+.hero-section {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    width: 90%;
+    margin: 0 auto 0;
+    padding: auto;
+    transition: 0.3s;
+
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+
+    h1 {
+        text-align: center;
+        width: 70%;
+        font-size: 75px;
+        font-weight: 600;
+        transition: opacity 0.3s ease-in-out;
+        /* Smooth transition for text opacity */
+
+        /* Typewriter animation span */
+        span {
+            background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .cursor {
+            display: inline-block;
+            font-weight: bold;
+            font-size: inherit;
+            color: black;
+            /* Cursor color */
+            animation: blink 0.7s step-end infinite;
+        }
+    }
+
+    @keyframes blink {
+
+        from,
+        to {
+            color: transparent;
+        }
+
+        50% {
+            color: black;
+            /* Cursor blink effect color */
+        }
+    }
+
+    p {
+        width: 50%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 40px;
+
+    }
+
+    .hero-action-btn {
+        /* border: 2px solid salmon; */
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 25px !important;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 50px;
+        transition: 0.3s ease-in-out;
+
+        .hero-connect-btn {
+            padding: 12px 16px;
+            border-radius: 50px;
+            background: linear-gradient(270deg, #DF8908 10%, #B415FF 100%);
+            cursor: pointer;
+            flex: 0 1 auto;
+            text-align: center;
+        }
+
+        .hero-connect-btn:hover {
+            border: 2px solid white;
+        }
+
+        .hero-resume-btn {
+            padding: 14px 20px;
+            border-radius: 50px;
+            border: 2px solid #fff;
+            cursor: pointer;
+            flex: 0 1 auto;
+            min-width: 150px;
+            text-align: center;
+        }
+
+        .hero-resume-btn:hover {
+            border: 2px solid #B415FF;
+        }
+
+    }
+}
+
+/* Css-for-largest-screens */
+@media (min-width: 769px) and (max-width: 1400px) {
+    .hero-section {
+        width: 90%;
+
+        img {
+            margin-top: 60px;
+            width: 200px;
+            height: 200px;
+        }
+
+        h1 {
+            margin-top: 40px;
+            width: 80%;
+            font-size: 50px;
+        }
+
+        p {
+            width: 80%;
+            font-size: 18px;
+            line-height: 32px;
+            margin: 10px 0;
+        }
+
+        .hero-action-btn {
+            gap: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .hero-connect-btn {
+                padding: 18px 30px;
+                border-radius: 40px;
+            }
+
+            .hero-resume-btn {
+                padding: 18px 30px;
+                border-radius: 40px;
+            }
+
+        }
+    }
+}
+
+/* Css-for-tablet-screens */
+@media (min-width: 496px) and (max-width: 768px) {
+    .hero-section {
+        width: 90%;
+
+        img {
+            margin-top: 60px;
+            width: 200px;
+            height: 200px;
+        }
+
+        h1 {
+            margin-top: 40px;
+            width: 90%;
+            font-size: 50px;
+        }
+
+        p {
+            width: 70%;
+            font-size: 18px;
+            line-height: 32px;
+            margin: 10px 0;
+        }
+
+        .hero-action-btn {
+            gap: 20px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .hero-connect-btn {
+                padding: 16px 30px;
+                border-radius: 40px;
+            }
+
+            .hero-resume-btn {
+                padding: 16px 30px;
+                border-radius: 40px;
+            }
+
+        }
+    }
+}
+
+/* Css-for-mobile-screens */
+@media (min-width:200px) and (max-width: 495px) {
+    .hero-section {
+        width: 90%;
+
+        img {
+            margin-top: 60px;
+            width: 220px;
+            height: 220px;
+        }
+
+        h1 {
+            margin-top: 20px;
+            width: 90%;
+            font-size: 30px;
+        }
+
+        p {
+            width: 90%;
+            font-size: 18px;
+            line-height: 30px;
+            margin: 10px 0;
+        }
+
+        .hero-action-btn {
+            gap: 16px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .hero-connect-btn {
+                padding: 14px 28px;
+                border-radius: 40px;
+            }
+
+            .hero-resume-btn {
+                padding: 14px 28px;
+                border-radius: 40px;
+            }
+
+        }
+    }
+}
