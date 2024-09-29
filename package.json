@@ -1,5 +1,5 @@
 {
-  "homepage": "https://iamhamzasheikh.github.io/my-react-profile",
+  "homepage": "https://yourusername.github.io/my-react-portfolio",
   "name": "my-react-portfolio",
   "version": "0.1.0",
   "private": false,
@@ -19,7 +19,6 @@
     "react-simple-typewriter": "^5.0.1",
     "react-toastify": "^10.0.5",
     "web-vitals": "^2.1.4"
-    
   },
   "scripts": {
     "start": "react-scripts start",
