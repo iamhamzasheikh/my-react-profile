@@ -158,7 +158,7 @@ const Contact = () => {
           </p>
           <div className="contact-details">
             <div className="detail"><img src={mail_icon} alt="" /> <p>zafarhamza789@gmail.com</p></div>
-            <div className="detail"><img src={call_icon} alt="" /> <p>+923360639358</p></div>
+            <div className="detail"><img src={call_icon} alt="" /> <p>+923097950502</p></div>
             <div className="detail"><img src={location_icon} alt="" /><p>Pakistan,Lahore</p></div>
           </div>
         </div>
