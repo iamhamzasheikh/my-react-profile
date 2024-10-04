@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-profile/static/css/main.f9ab3867.css",
-    "main.js": "/my-react-profile/static/js/main.f119080a.js",
+    "main.js": "/my-react-profile/static/js/main.498f271a.js",
     "static/js/453.5ec38994.chunk.js": "/my-react-profile/static/js/453.5ec38994.chunk.js",
     "static/media/profile_hamza_img.jpg": "/my-react-profile/static/media/profile_hamza_img.a3f73db01de9ddb5fb53.jpg",
     "static/media/project_2.svg": "/my-react-profile/static/media/project_2.d4cfcd14acd5cee55afc554302820311.svg",
@@ -22,11 +22,11 @@
     "static/media/arrow_icon.svg": "/my-react-profile/static/media/arrow_icon.f169ae5deeae7412caddb7034d295d3b.svg",
     "static/media/menu_open.svg": "/my-react-profile/static/media/menu_open.6cc3b93d9911bae382a7fa6bc30ad1eb.svg",
     "main.f9ab3867.css.map": "/my-react-profile/static/css/main.f9ab3867.css.map",
-    "main.f119080a.js.map": "/my-react-profile/static/js/main.f119080a.js.map",
+    "main.498f271a.js.map": "/my-react-profile/static/js/main.498f271a.js.map",
     "453.5ec38994.chunk.js.map": "/my-react-profile/static/js/453.5ec38994.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f9ab3867.css",
-    "static/js/main.f119080a.js"
+    "static/js/main.498f271a.js"
   ]
 }
