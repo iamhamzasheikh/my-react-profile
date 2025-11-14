@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
 
-            <h2>Hamza Sheikh</h2>
+            <h2>Hamza Zafar</h2>
             <img src={menu_open} onClick={openMenu} alt="" className='nav-mov-open' />
 
             <ul ref={menuRef} className='nav-menu'>

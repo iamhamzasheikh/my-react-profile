@@ -22,10 +22,12 @@ const About = () => {
           </div>
 
           <div className="about-skills">
-            <div className="skill"><p>HTML & CSS</p><hr style={{ width: "75%" }} /></div>
-            <div className="skill"><p>React JS</p><hr style={{ width: "65%" }} /></div>
-            <div className="skill"><p>JavaScript</p><hr style={{ width: "50%" }} /></div>
-            <div className="skill"><p>Ionic Angular</p><hr style={{ width: "60%" }} /></div>
+            <div className="skill"><p>HTML & CSS</p><hr style={{ width: "80%" }} /></div>
+            <div className="skill"><p>React JS</p><hr style={{ width: "75%" }} /></div>
+            <div className="skill"><p>Node.JS</p><hr style={{ width: "65%" }} /></div>
+            <div className="skill"><p>Express.JS</p><hr style={{ width: "60%" }} /></div>
+            <div className="skill"><p>Mongo DB</p><hr style={{ width: "70%" }} /></div>
+            <div className="skill"><p>Rest API</p><hr style={{ width: "70%" }} /></div>
           </div>
 
         </div>
@@ -33,26 +35,26 @@ const About = () => {
 
 
       <div className="achievements-control-div">
-      <div className="about-achievements">
-        <div className="achievement">
-          <h1>3+</h1>
-          <p>Years of Experience</p>
+        <div className="about-achievements">
+          <div className="achievement">
+            <h1>1+</h1>
+            <p>Years of Experience</p>
+          </div>
         </div>
-      </div>
-      <hr />
-      <div className="about-achievements">
-        <div className="achievement">
-          <h1>5+</h1>
-          <p>Happy Clients</p>
+        <hr />
+        <div className="about-achievements">
+          <div className="achievement">
+            <h1>5+</h1>
+            <p>Happy Clients</p>
+          </div>
         </div>
-      </div>
-      <hr />
-      <div className="about-achievements">
-        <div className="achievement">
-          <h1>10+</h1>
-          <p>Projects Completed</p>
+        <hr />
+        <div className="about-achievements">
+          <div className="achievement">
+            <h1>10+</h1>
+            <p>Projects Completed</p>
+          </div>
         </div>
-      </div>
       </div>
     </div>
   )

@@ -60,7 +60,7 @@ const Footer = () => {
             {/* footer-top */}
             <div className="footer-top">
                 <div className="footer-top-left-side">
-                    <h2>Hamza Sheikh</h2>
+                    <h2>Hamza Zafar</h2>
                     <p>I am a frontend developer from,
                         Pakistan with 3 years of experience in multiple companies.</p>
                 </div>
@@ -90,7 +90,7 @@ const Footer = () => {
             {/* footer-bottom */}
 
             <div className="footer-bottom">
-                <p className='footer-bottom-left'>© 2024 Hamza Sheikh. All rights reserved.</p>
+                <p className='footer-bottom-left'>© 2026 Hamza Zafar. All rights reserved.</p>
                 <div className="footer-bottom-right">
                     <a href="/">Privacy Policy</a>
                     <a href="/">Terms & Conditions</a>

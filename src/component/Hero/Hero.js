@@ -9,7 +9,7 @@ const Hero = () => {
     const [isTypingDone, setIsTypingDone] = useState(false);
 
     const [text] = useTypewriter({
-        words: ['I am Hamza Sheikh'],
+        words: ['I am Hamza Zafar'],
         typeSpeed: 100,
         onLoopDone: () => {
             setIsTypingDone(true); // When typing is complete, we set this to true
@@ -34,10 +34,10 @@ const Hero = () => {
             <h1>
                 <span>{text}</span>
                 {!isTypingDone && <Cursor />} {/* Cursor disappears once typing is done */},
-                frontend developer based in Pakistan.
+                MERN Stack developer based in Pakistan.
             </h1>
 
-            <p>I am a frontend developer from Lahore, Pakistan with 3 years of experience in multiple companies.</p>
+            <p>I am a MERN Stack developer with a year of experience in full stack development.</p>
 
             <div className="hero-action-btn">
                 <div className="hero-connect-btn">
