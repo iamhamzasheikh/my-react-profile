@@ -61,8 +61,8 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left-side">
                     <h2>Hamza Zafar</h2>
-                    <p>I am a frontend developer from,
-                        Pakistan with 3 years of experience in multiple companies.</p>
+                    <p>I am a MERN Stack developer from Pakistan
+                        with a year of experience in full stack development.</p>
                 </div>
 
                 <div className="footer-top-right-side">

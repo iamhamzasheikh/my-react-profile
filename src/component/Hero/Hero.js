@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './Hero.css';
 import profile_hamza_img from '../../assets/profile_hamza_img.jpg';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import resumepdf from '../../assets/Hamza_Sheikh_Resume.pdf';
+// import resumepdf from '../../assets/zafar-hamza_Resume_2026.pdf';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Hero = () => {
@@ -17,10 +17,10 @@ const Hero = () => {
     });
 
     const handleResumeDownload = () => {
-        const resumeUrl = resumepdf;
+        const resumeUrl = '/zafar-hamza_Resume_2026.pdf';
         const link = document.createElement('a');
         link.href = resumeUrl;
-        link.download = 'Hamza_Sheikh_Resume.pdf';
+        link.download = 'Hamza_Zafar_Resume.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
